@@ -1,8 +1,8 @@
 # awesome-dsh-plugins
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Catalog](https://img.shields.io/badge/catalog-2996-2563eb)
-![Verified](https://img.shields.io/badge/verified-2202-16a34a)
+![Catalog](https://img.shields.io/badge/catalog-3010-2563eb)
+![Verified](https://img.shields.io/badge/verified-2216-16a34a)
 ![License](https://img.shields.io/badge/license-MIT-f59e0b)
 
 [English](README.en.md) | **简体中文** | [🌐 网站](https://deepseekharnessplugins.com)
@@ -11,11 +11,11 @@
 
 DeepSeek Harness 目前处于 **Developer Preview**。官方采用 Cordis 的“Everything is a plugin”架构：Profile 组合 Bundle，外部插件通常以 `package.json` 的 `dsh` 字段及 patch 文件声明挂载方式。[1] [2] 因此，本目录中的安装方法和兼容性应在你自己的 DSH 版本上先行验证。
 
-**快照日期：2026-10-14。** 本版主目录收录 **2202 个**经源码或安装清单核验的插件与 Skill，按 22 个能力分类组织（与配套网站 [deepseekharnessplugins.com](https://deepseekharnessplugins.com) 同构）；完整清单已拆分到 [`docs/categories/`](docs/categories/) 的 22 个分类页面。同时提供 **全量聚合目录 [`CATALOG.md`](CATALOG.md)（2996 个仓库）**，合并 GitHub 搜索与多个社区目录去重后得到。**聚合 ≠ 可装载、可兼容、可安全运行**；只有本目录核验子集进入主目录，证据见 [data/verified-plugins.csv](data/verified-plugins.csv) 与 [data/audit-results.csv](data/audit-results.csv)。[3]
+**快照日期：2026-10-15。** 本版主目录收录 **2216 个**经源码或安装清单核验的插件与 Skill，按 22 个能力分类组织（与配套网站 [deepseekharnessplugins.com](https://deepseekharnessplugins.com) 同构）；完整清单已拆分到 [`docs/categories/`](docs/categories/) 的 22 个分类页面。同时提供 **全量聚合目录 [`CATALOG.md`](CATALOG.md)（3010 个仓库）**，合并 GitHub 搜索与多个社区目录去重后得到。**聚合 ≠ 可装载、可兼容、可安全运行**；只有本目录核验子集进入主目录，证据见 [data/verified-plugins.csv](data/verified-plugins.csv) 与 [data/audit-results.csv](data/audit-results.csv)。[3]
 
 | 导航 | 内容 |
 | --- | --- |
-| [全量聚合目录](#全量聚合目录) | **2996 个** DSH 相关仓库的完整聚合（含未审核候选）；[审计日志](data/audit-results.csv) |
+| [全量聚合目录](#全量聚合目录) | **3010 个** DSH 相关仓库的完整聚合（含未审核候选）；[审计日志](data/audit-results.csv) |
 | [已核验插件目录](#已核验插件目录) | 按 22 个能力分类的已核验可装载扩展（与[网站](https://deepseekharnessplugins.com)同构） |
 | [界面与体验](#界面与体验) · [会话与消息](#会话与消息) · [其他](#其他) · [桌面与应用](#桌面与应用) · [MCP 与协议](#mcp-与协议) · [插件工具](#插件工具) · [Web 界面与前端](#web-界面与前端) · [主题与皮肤](#主题与皮肤) · [安全与鉴权](#安全与鉴权) · [聊天与 IM](#聊天与-im) · [命令行与终端](#命令行与终端) · [语音](#语音) · [清单与资源](#清单与资源) · [用量与计费](#用量与计费) · [Agent、自动化与工作流](#agent自动化与工作流) · [集成与分享](#集成与分享) · [开发者工具](#开发者工具) · [知识与研究](#知识与研究) · [设计、媒体与视觉](#设计媒体与视觉) · [网页与浏览器](#网页与浏览器) · [生态与资源](#生态与资源) · [纯属好玩](#纯属好玩) | 22 个分类锚点 |
 | [官方内置能力](#官方内置能力不是社区插件) | 随 DSH 源码发行的官方运行时构件 |
@@ -42,7 +42,7 @@ DeepSeek Harness 目前处于 **Developer Preview**。官方采用 Cordis 的“
 
 | 导航 | 内容 |
 | --- | --- |
-| [全量聚合目录](#全量聚合目录) | **2996 个** DSH 相关仓库的完整聚合（含未审核候选）；[审计日志](data/audit-results.csv) |
+| [全量聚合目录](#全量聚合目录) | **3010 个** DSH 相关仓库的完整聚合（含未审核候选）；[审计日志](data/audit-results.csv) |
 | 分类目录（完整清单） | [界面与体验](docs/categories/ui-experience.md) · [会话与消息](docs/categories/sessions-messages.md) · [其他](docs/categories/utilities.md) · [桌面与应用](docs/categories/desktop.md) · [MCP 与协议](docs/categories/mcp.md) · [插件工具](docs/categories/plugin-tools.md) · [Web 界面与前端](docs/categories/web-ui.md) · [主题与皮肤](docs/categories/theme.md) · [安全与鉴权](docs/categories/security.md) · [聊天与 IM](docs/categories/chat-im.md) · [命令行与终端](docs/categories/cli.md) · [语音](docs/categories/voice.md) · [清单与资源](docs/categories/lists.md) · [用量与计费](docs/categories/billing.md) · [Agent、自动化与工作流](docs/categories/agents-workflows.md) · [集成与分享](docs/categories/integrations-sharing.md) · [开发者工具](docs/categories/developer-tools.md) · [知识与研究](docs/categories/knowledge-research.md) · [设计、媒体与视觉](docs/categories/media-vision.md) · [网页与浏览器](docs/categories/web-browser.md) · [生态与资源](docs/categories/ecosystem-resources.md) · [纯属好玩](docs/categories/fun.md) |
 | [官方内置能力](#官方内置能力不是社区插件) | 随 DSH 源码发行的官方运行时构件 |
 | [相关项目与观察名单](#相关项目与观察名单不计入主目录) | 相关但并非已核验原生插件的项目 |
@@ -60,13 +60,13 @@ DeepSeek Harness 目前处于 **Developer Preview**。官方采用 Cordis 的“
 | [fourzkw/dsh-drawai](https://github.com/fourzkw/dsh-drawai) | Create diagram artifacts and use Draw.io-oriented tools from a DSH profile. | `dsh plugin --profile web add github:fourzkw/dsh-drawai` | MIT；Diagram output depends on the configured DSH workspace and Draw.io-compatible environment. |
 | [HerTa-st/Herta-dsh](https://github.com/HerTa-st/Herta-dsh) | Installs Herta persona and memory tools, narrative scheduling, voice routes/engines, a web UI, and the bundled Herta theme. | `dsh plugin --profile web add dsh-herta` | MIT；The repository ships Herta/HoYoverse-derived voice and persona assets with explicit non-commercial/rightsholder caveats; cloud voice engines require user credentials and may incur external service costs. |
 | [zangxx66/dsh-prompt-setting](https://github.com/zangxx66/dsh-prompt-setting) | Inspect effective system prompts, maintain a scoped custom prompt with history and backups, and view compatibility/update status in DSH Settings. | `dsh plugin --profile web add 'github:zangxx66/dsh-prompt-setting#path:/packages/dsh-prompt-setting' && dsh web; the documented registry command is dsh plugin --profile web add dsh-prompt-setting.` | MIT；The README reports npm latest 0.1.5 while the checked repository package is 0.2.1; pin the GitHub #path or a release when testing the current source and verify the DSH version range. |
+| [lhuans/dsh-genui](https://github.com/lhuans/dsh-genui) | Render interactive charts, forms, calculators, and mini apps in DSH replies and send explicit user actions back to the conversation. | `dsh plugin --profile web add dsh-genui; restart DSH and start a new conversation.` | MIT；Requires Node.js 20 or newer and a DSH restart before the plugin becomes active. |
 | [HarmlessFunny/dsh-background-by-model](https://github.com/HarmlessFunny/dsh-background-by-model) | Selects wallpaper rules by the current model and supports image rotation, theme colors, and layout controls. | `dsh plugin --profile web add dsh-background-by-model; restart dsh web.` | MIT；README identifies it as a renamed fork of Tkingxiao/dsh-any-background and says npm is the only install source because the GitHub tree lacks built lib files. |
 | [rezon-aki/dsh-streamfold](https://github.com/rezon-aki/dsh-streamfold) | Controls conversation folding, scrolling, and display effects in the DSH Web UI. | `dsh plugin --profile web add dsh-streamfold; restart the profile and refresh the browser.` | MIT；Requires DSH >=0.2.0-rc.2 and the web profile. |
 | [yi-yezhiqiu/dsh-prompt-market](https://github.com/yi-yezhiqiu/dsh-prompt-market) | Opens a prompt catalog beside the composer and inserts selected prompt text into the draft. | `dsh plugin --profile desktop add dsh-prompt-market` | MIT；Remote prompts are normalized to plain text, but review their contents before inserting them into an LLM conversation. |
 | [alienzhou/html-workbench](https://github.com/alienzhou/html-workbench) | Open workspace HTML in an embedded visual editor, preview interactions, and save edits back to the same file. | `dsh plugin --profile web add @vibe-x/dsh-html-workbench` | MIT；Plugin files are nested under dsh-plugin/; the service binds to 127.0.0.1 and saves to the selected HTML file. |
-| [zhu1090093659/dsh-skins](https://github.com/zhu1090093659/dsh-skins) | Adds a GUI Skin Center for listing, previewing, trying on, and applying DSH themes and custom appearance settings. | `dsh plugin --profile web add @linxin666/dsh-client-ui-skin-center; open Settings -> Skin Center` | BSD-3-Clause；The repository LICENSE is BSD-3-Clause while package.json declares Apache-2.0; verify which terms cover the published package and any bundled assets before redistribution. |
 
-> 该分类共 **317** 个已核验条目，[查看完整清单 →](docs/categories/ui-experience.md)
+> 该分类共 **320** 个已核验条目，[查看完整清单 →](docs/categories/ui-experience.md)
 
 ### 会话与消息
 
@@ -108,6 +108,7 @@ DeepSeek Harness 目前处于 **Developer Preview**。官方采用 Cordis 的“
 | --- | --- | --- | --- |
 | [Ianzhyh/workbuddy-to-dsh](https://github.com/Ianzhyh/workbuddy-to-dsh) | Connect WorkBuddy and other OpenAI or Anthropic compatible endpoints to DSH profiles. | `dsh plugin --profile desktop add github:Ianzhyh/workbuddy-to-dsh` | MIT；Requires a reachable WorkBuddy-compatible provider and its authentication configuration. |
 | [sueccku/dsh-plugin-wps-office-next](https://github.com/sueccku/dsh-plugin-wps-office-next) | Read and manipulate WPS Office documents and related office files from DSH. | `dsh plugin --profile <profile> add dsh-plugin-wps-office-next` | MIT；Review WPS and workspace permissions before enabling the plugin on documents with sensitive content. |
+| [12we21/cute-fat-fish-pet](https://github.com/12we21/cute-fat-fish-pet) | Runs an animated desktop pet in the DSH web UI with chat and optional screen-watch features. | `dsh plugin --profile web add github:12we21/cute-fat-fish-pet#path:/src` | MIT；Screen watching is optional and may expose on-screen data to configured models; the README notes the GitHub path install fetches a large repository tarball. |
 | [CLICGGER-TYPES/dsh-piggy](https://github.com/CLICGGER-TYPES/dsh-piggy) | Tracks pet care and game progress from DSH activity, with optional desktop mode and downloadable game extensions. | `dsh plugin --profile web add dsh-piggy` | MIT；The separate Electron shell supports online updates; the DSH plugin itself requires Node >=20. |
 | [KyoMio/dsh-zen-remote](https://github.com/KyoMio/dsh-zen-remote) | Reach DSH sessions from a phone or another desktop through pairing-code access, a PWA and Web Push. | `dsh plugin add dsh-zen-remote` | MIT；Public deployment requires the operator's HTTPS reverse proxy and a mandatory /lan-gate/admin 403 self-check; pairing state is stored under ~/.dsh and package peer ranges cover more versions than the README's live verification. |
 | [xxww0098/dsh-plugin-oauth-subs](https://github.com/xxww0098/dsh-plugin-oauth-subs) | Connect supported AI subscriptions or API accounts and use their models from DSH sessions. | `dsh plugin --profile web add https://github.com/xxww0098/dsh-plugin-oauth-subs; then run dsh web` | MIT；README documents local credential imports including OS keychain or provider-specific token files; account flows and provider compatibility can change upstream. |
@@ -115,9 +116,8 @@ DeepSeek Harness 目前处于 **Developer Preview**。官方采用 Cordis 的“
 | [dsh-wsl-workspace-maintainers/dsh-wsl-workspace](https://github.com/dsh-wsl-workspace-maintainers/dsh-wsl-workspace) | Adds WSL-backed workspaces so DSH shell and file tools operate inside a local WSL distribution. | `dsh plugin --profile web add dsh-wsl-workspace; restart dsh web.` | MIT；README lists compatibility through DSH 0.2.0-rc.2; the integration is Windows/WSL-specific and unlisted DSH releases are unverified. |
 | [nzl153/dsh-pet-whale](https://github.com/nzl153/dsh-pet-whale) | Show idle, thinking, working, waiting, error, and completion states as an interactive whale companion in DSH. | `dsh plugin --profile web add "github:nzl153/dsh-pet-whale#main"; restart DSH. The README also documents link:/path/to/pet-whale for a local checkout.` | MIT；The README says the whale outline is based on a DeepSeek brand path; that is an author-supplied attribution claim and should be checked against applicable brand terms. Compatibility is limited to the stated DSH and Node ranges. |
 | [YangShen-SWE/dsh-plugin-simple-pet](https://github.com/YangShen-SWE/dsh-plugin-simple-pet) | Shows DeepSeek balance, token usage, pricing reactions, and an animated always-on-top Windows desktop pet. | `dsh plugin --profile desktop add "file:C:/path/to/dsh-plugin-simple-pet"; enable dsh-plugin-simple-pet and restart DSH on Windows.` | MIT；Windows-only UI; README says rc.1 still needs real-device regression, local data remains after uninstall, and artwork has separate licensing terms. |
-| [Andersen216/dsh-whale-girl-live2d](https://github.com/Andersen216/dsh-whale-girl-live2d) | Displays a Live2D pet synced to agent activity and provides a composer for sending input to the active session. | Run `dsh plugin --profile web add github:Andersen216/dsh-whale-girl-live2d`; restart DSH and hard-reload the page. | MIT；MIT covers project code, not all assets: NOTICE.md identifies model artwork as CC BY-NC-SA 4.0, Live2D Cubism Core as proprietary, and the overall project as non-commercial. |
 
-> 该分类共 **66** 个已核验条目，[查看完整清单 →](docs/categories/desktop.md)
+> 该分类共 **67** 个已核验条目，[查看完整清单 →](docs/categories/desktop.md)
 
 ### MCP 与协议
 
@@ -260,9 +260,9 @@ DeepSeek Harness 目前处于 **Developer Preview**。官方采用 Cordis 的“
 | [jingyi0605/Codingns4DSH](https://github.com/jingyi0605/Codingns4DSH) | Use supported coding Agent CLIs and manage terminals, files, Git, project processes, and remote workspace access from DSH. | `dsh plugin --profile web add @jingyi0605/codingns4dsh@0.2.1-beta.6` | GPL-3.0-or-later；Remote access, terminal, file, and process modules are configurable; enable only on a trusted host and network. |
 | [zaimokuza-yoshiteru/dsh-acp-adapter](https://github.com/zaimokuza-yoshiteru/dsh-acp-adapter) | Run configured Devin, Codex, Claude, Kimi and other ACP agents in native DSH sessions with DSH approvals. | `npx @deepseek-ai/dsh@0.2.0-rc.2 plugin --profile web add @zaimokuza/dsh-acp-adapter@next` | MIT；External Agent binaries, login state and their own tools remain user-managed; compatibility is tied to the documented DSH release. |
 | [shuxidemosheng/dsh-tool-todo-plus](https://github.com/shuxidemosheng/dsh-tool-todo-plus) | Lets the model maintain prioritized tasks while showing progress and the current action in a floating panel. | `dsh plugin --profile <profile> add dsh-tool-todo-plus; fully restart the client.` | MIT；Requires Node.js >=24 per package.json; it is an enhanced fork of the official todo tool and registers as todo_write_plus by default. |
-| [MichengAI/dsh-btw](https://github.com/MichengAI/dsh-btw) | Ask /btw context questions in independent bubbles without tools or interrupting the main task. | `dsh plugin --profile web add @michengai/dsh-btw@latest --registry=https://registry.npmjs.org/` | Apache-2.0；Requires Node.js 22+ and one of the listed DSH versions; side-question context is still sent through the selected host model/API. |
+| [2huy4n/ProjectKaren](https://github.com/2huy4n/ProjectKaren) | Give an existing DSH roleplay character time-aware sleep, greetings, idle activity, proactive conversation, weather, and optional photos. | `dsh plugin --profile <profile> add "git+https://github.com/2huy4n/ProjectKaren#v0.2.4"; restart DSH and configure Settings → ProjectKaren.` | AGPL-3.0-or-later；The plugin does not include a roleplay character card; photo generation requires a configured OpenAI-compatible image API. |
 
-> 该分类共 **303** 个已核验条目，[查看完整清单 →](docs/categories/agents-workflows.md)
+> 该分类共 **308** 个已核验条目，[查看完整清单 →](docs/categories/agents-workflows.md)
 
 ### 集成与分享
 
@@ -277,18 +277,18 @@ DeepSeek Harness 目前处于 **Developer Preview**。官方采用 Cordis 的“
 
 | 插件 | 能力 | 安装或挂载方式 | 许可 / 风险 |
 | --- | --- | --- | --- |
+| [pearjelly/deep-blend](https://github.com/pearjelly/deep-blend) | Create and refine Blender product scenes in DSH, then render previews and deliver PNG or MP4 output. | `dsh plugin --profile web add @deepblend/dsh-blender-bundle; then run dsh web and select the DeepBlend Studio preset.` | MIT；Requires DSH 0.1.5-rc.2, Node.js 22.23.3 or newer, pnpm, and Blender 5.2.1; rendering can use substantial local compute. |
 | [lcestou/dsh-oh-my-claude](https://github.com/lcestou/dsh-oh-my-claude) | Adds Claude Code as a DSH model provider with session controls, a web panel, and optional remote workspaces. | `dsh plugin --profile web add dsh-oh-my-claude` | MIT；SSH boxes and Claude credentials are optional but materially expand access; review the configured permission mode and remote host settings. |
 | [TikaFlow/dsh-model-fix](https://github.com/TikaFlow/dsh-model-fix) | Fills and validates model parameters and remembers or adjusts reasoning levels in DSH. | `dsh plugin --profile web add https://github.com/TikaFlow/dsh-model-fix/releases/download/v0.29.16/dsh-model-fix.tgz` | MIT；README states tested support through DSH 0.2.1-alpha.2; verify host compatibility before upgrading to a newer DSH release. |
 | [fan56/dsh-dcp](https://github.com/fan56/dsh-dcp) | Compact session history deterministically without auxiliary LLM summaries and configure trigger behavior. | `dsh plugin add @aiwayds/dsh-dcp` | MIT；README requires DSH >=0.2.0-rc.2 and says the alpha line is unsupported. |
+| [PerryLink/dsh-fast](https://github.com/PerryLink/dsh-fast) | Report session-load, context, compaction, spill, and LLM-cache diagnostics through /fast and fast_report. | `dsh plugin --profile web add github:PerryLink/dsh-fast` | Apache-2.0；Although described as read-only diagnostics, the plugin writes its own bounded metrics to the DSH storage domain; README notes compatibility with DSH 0.2.1-alpha.1. |
 | [LaoYueHanNi/dsh-git-worktree](https://github.com/LaoYueHanNi/dsh-git-worktree) | Switches branches, creates and removes worktrees, and exposes repository workspaces in the DSH UI. | `dsh plugin --profile web add @laoyuehanni/dsh-git-worktree` | MIT；README warns that git clean -xdff can delete in-repository worktree directories and their uncommitted contents. |
 | [xyrrrrr-r/dsh-eval-control](https://github.com/xyrrrrr-r/dsh-eval-control) | Injects trial configuration and model-call budgets into DSH sessions, tracks fork lineage, and writes verifiable evidence descriptors. | `dsh plugin --profile web add dsh-eval-control` | Apache-2.0；The default patch only publishes standalone status; active evaluation control requires configuration composed by aeval. Requires Node.js 22.19 or newer, or 24+. |
 | [songoao25/dsh-chatgpt-sub](https://github.com/songoao25/dsh-chatgpt-sub) | Bind a ChatGPT account through official OAuth, maintain its token, and select ChatGPT models from the DSH provider picker. | `dsh plugin --profile web add https://github.com/SONGOAO25/dsh-chatgpt-sub && restart DSH; the desktop route is Plugins -> Add plugin with the same repository URL, followed by a full restart.` | MIT；The README reported no verified npm publication on 2026-10-10; use the repository URL until publication is confirmed. Only bind an account with explicit user authorization and keep credentials out of logs or reports. |
 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | Adds model choices, availability checks, usage panels, and a local OpenAI-compatible forwarder. | Clone the repository, then run `dsh plugin --profile web add /absolute/path/dsh-our-free-model` and restart; replace `web` with the profile in use. README says desktop profiles must use the in-app plugin manager or a real directory install. | MIT；The headline claims no usage cap, while docs disclose upstream quota and region limits; Kilo may log prompts. README's manual desktop bundle instructions say version 1.5.0 although package.json is 2.0.0. |
 | [PerryLink/dsh-score](https://github.com/PerryLink/dsh-score) | Score plugin repositories or npm packages and produce auditable scorecards, reports, and badges. | `dsh plugin --profile web add dsh-score; restart the profile and invoke score or /score` | Apache-2.0；README says Git installation may first fail because pnpm blocks prepare; the recorded npm install path avoids that documented build-allowance issue. |
-| [T-Auto/dsh-ops](https://github.com/T-Auto/dsh-ops) | Run Bash and PowerShell commands, search and edit local files, and manage long-running background jobs from DSH. | `dsh plugin --profile web add dsh-ops` | MIT AND Apache-2.0；Windows x64 only; the README warns that file tools are not a host filesystem sandbox. |
-| [thibautrey/multivibe](https://github.com/thibautrey/multivibe) | Connect a DSH profile to a MultiVibe gateway and discover its routable models. | `dsh plugin add https://github.com/thibautrey/multivibe/releases/download/dsh-multivibe-v0.1.0/dsh-multivibe-0.1.0.tgz; restart DSH; requires Node.js 22+ and DSH SDK 0.2.x with the official services and llm-pi-ai adapter.` | Apache-2.0；The pinned release is v0.1.0 while the current nested package.json is v0.1.1; the README also does not claim a live DSH Desktop-profile installation/open test. |
 
-> 该分类共 **299** 个已核验条目，[查看完整清单 →](docs/categories/developer-tools.md)
+> 该分类共 **302** 个已核验条目，[查看完整清单 →](docs/categories/developer-tools.md)
 
 ### 知识与研究
 
@@ -303,9 +303,9 @@ DeepSeek Harness 目前处于 **Developer Preview**。官方采用 Cordis 的“
 | [EricWang1358/dsh-web-studyhub](https://github.com/EricWang1358/dsh-web-studyhub) | Import study materials, generate cited practice questions, and schedule reviews inside DSH. | `DSH Plugins > Add plugin > https://github.com/EricWang1358/dsh-web-studyhub/releases/download/v3.3.0/ericwang1358-dsh-daily-flashcard-3.3.0.tgz > Enable; requires DSH 0.2.x (>=0.2.0-rc.2 and <0.3).` | MIT；Optional transcription and MinerU cloud conversion send selected audio or PDFs to the configured services after use or consent. |
 | [GGboya/dsh-paper-reader](https://github.com/GGboya/dsh-paper-reader) | Organize research PDFs, ask questions with page citations, and open cited passages in the reader. | `dsh plugin --profile web add @ggboy123/dsh-paper-reader@1.2.0` | MIT；Install from npm: README says built dist is not committed, so GitHub URL installation can leave the profile unable to start. |
 | [huliux/dsh-asr-plugin](https://github.com/huliux/dsh-asr-plugin) | Records microphone/system audio locally and produces timestamped, speaker-labelled meeting transcripts. | `dsh plugin --profile web add --ignore-scripts @huliux/dsh-asr-plugin@0.1.2; prepare models from plugin settings` | Apache-2.0；Apple Silicon macOS only; README says the helper is ad-hoc signed and not notarized, and recommends checksum-verified release archives for installation. |
-| [pk14742952-AD/dsh-host-rsi](https://github.com/pk14742952-AD/dsh-host-rsi) | Captures useful lessons locally and injects relevant memories and recovery guidance into later model turns. | `dsh plugin add github:pk14742952-AD/dsh-host-rsi; restart DSH. Add --profile <profile> when using a non-default profile.` | MIT；Not published to npm per README; use the GitHub install route. Defaults are tuned toward local 27B/Flash models, though the README says other DSH models work. |
+| [STARDUSTLC666/dsh-ppt](https://github.com/STARDUSTLC666/dsh-ppt) | Generate editable PPTX, HTML slideshows, and deck projects from a prompt or Markdown document. | `dsh plugin --profile desktop add dsh-ppt` | MIT；Optional PNG/PDF rendering requires the separately installed LibreOffice Kit; Node.js must be ^22.19.0 or >=24.0.0. |
 
-> 该分类共 **191** 个已核验条目，[查看完整清单 →](docs/categories/knowledge-research.md)
+> 该分类共 **192** 个已核验条目，[查看完整清单 →](docs/categories/knowledge-research.md)
 
 ### 设计、媒体与视觉
 
@@ -322,7 +322,7 @@ DeepSeek Harness 目前处于 **Developer Preview**。官方采用 Cordis 的“
 | [welsione/dsh-mmx-bridge](https://github.com/welsione/dsh-mmx-bridge) | Give DSH one mmx_bridge tool for MiniMax image, video, speech, music, search, and quota operations. | `dsh plugin --profile web add dsh-mmx-bridge` | MIT；Requires mmx-cli and MiniMax authentication; README says macOS/Linux are first-class and Windows support is best-effort without real-machine verification. |
 | [corrinehu/dsh-chat-imagine](https://github.com/corrinehu/dsh-chat-imagine) | Inline image generation with bundled cli-image-gen recovery skill; analyze_image reads local/URL images into structured JSON evidence; set_image_default for channel selection. | `dsh plugin --profile web add dsh-chat-imagine` | MIT；Tested only on DSH Web profile; images live in process memory only (links die on restart). |
 
-> 该分类共 **89** 个已核验条目，[查看完整清单 →](docs/categories/media-vision.md)
+> 该分类共 **90** 个已核验条目，[查看完整清单 →](docs/categories/media-vision.md)
 
 ### 网页与浏览器
 
